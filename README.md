@@ -30,6 +30,7 @@ If you liked this repository, feel free to leave a star ⭐!
 `types       :` Display's All available reaction role types.<br>
 `wipe        :` Wipe all reaction Roles from the current guild.<br>
 
+Also, Unlimited reactions per message, and customizable prefix per guild. 
 
 ## Installation
 
@@ -53,7 +54,7 @@ Set up all your information in the *config.json* File as such
   "developers": ["DEVELOPERS_IDS"],
   "bot_name":"YOUR_BOT_NAME"
 }
-}
+
 ```
 
  Please make sure to have enabled `Privileged Intents` on your Discord [developer portal](https://discordapp.com/developers/applications/). 
