@@ -12,7 +12,7 @@ module.exports = class extends Command {
       super(...args, {
         name: 'removerr',
         aliases: ["removereactionrole", "rreactionrole", "deletereactionrole", "delreactionrole", "remrr", "delrr", 'delreaction', 'deletereaction'],
-        description: 'Create a reaction role',
+        description: 'Delete a reaction role',
         category: 'Reaction Role',
         cooldown: 3,
         usage: '<channel> <messageID> <emoji>',
