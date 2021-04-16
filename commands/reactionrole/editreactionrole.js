@@ -12,7 +12,7 @@ module.exports = class extends Command {
       super(...args, {
         name: 'editreaction',
         aliases: ["editreactionrole", "err"],
-        description: 'Edit the role which a certain reaction give',
+        description: 'Edit the role which a certain reaction given',
         category: 'Reaction Role',
         cooldown: 3,
         usage: '<channel> <messageID> <newRoleID> <emoji>',
