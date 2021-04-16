@@ -66,7 +66,7 @@ let slowDownEmbed = new MessageEmbed()
 let addEmbed = new MessageEmbed()
 .setAuthor('Role Added', `https://i.pinimg.com/originals/ed/a7/f3/eda7f39a28ff7d7e34ad4d5e99fb814a.png` , `${message.url}` )
 .setDescription(`You have recieved the **${rrRole.name}** Role by reacting in ${guildName}`)
-.setFooter(`https://github.com/peterhanania/reaction-rolesom/peterhanania/reaction-roles`)
+.setFooter(`https://github.com/peterhanania/reaction-roles/`)
 .setColor(message.client.color.green)
 
 
@@ -74,14 +74,14 @@ let addEmbed = new MessageEmbed()
 let remEmbed = new MessageEmbed()
 .setAuthor('Role Removed', `https://i.pinimg.com/originals/ed/a7/f3/eda7f39a28ff7d7e34ad4d5e99fb814a.png` , `${message.url}` )
 .setDescription(`You have removed the **${rrRole.name}** Role by reacting in ${guildName}`)
-.setFooter(`https://github.com/peterhanania/reaction-rolesom/peterhanania/reaction-roles`)
+.setFooter(`https://github.com/peterhanania/reaction-roles/`)
 .setColor(message.client.color.green)
 
 //Reaction Role Error
 let errorReaction = new MessageEmbed()
 .setAuthor('Reaction Role Error', `https://i.pinimg.com/originals/ed/a7/f3/eda7f39a28ff7d7e34ad4d5e99fb814a.png` , `${message.url}` )
 .setDescription(` Failed to Add the role, since I'm Missing the Manage Roles Permission.\n\nPlease let an admin Know.`)
-.setFooter(`https://github.com/peterhanania/reaction-rolesom/peterhanania/reaction-roles`)
+.setFooter(`https://github.com/peterhanania/reaction-roles/`)
 .setColor(message.client.color.green)
 
 if(reactionCooldown.has(user.id)) {
