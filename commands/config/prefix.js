@@ -4,7 +4,8 @@ const Guild = require('../../database/guild');
 module.exports = class extends Command {
     constructor(...args) {
       super(...args, {
-        name: 'prefix',
+        name: 'setprefix',
+        aliases: ['prefix'],
         description: 'Sets the prefix for this server',
         category: 'Config',
         usage: [ '<prefix>' ],
