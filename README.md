@@ -22,13 +22,13 @@ If you liked this repository, feel free to leave a star ⭐!
 
 ## Features
 
-addreaction : - Creates a reaction role. <br>
-editreaction: - Edit the role which a certain reaction given.<br>
-builder     : - Starts a prompt and create your reaction role.<br>
-removerr    : - Removes a reaction role.<br>
-dm          : - Enables / Disables Reaction Role DMs.<br>
-types       : - Display's All available reaction role types.<br>
-wipe        : - Wipe all reaction Roles from the current guild.<br>
+`addreaction :` Creates a reaction role. <br>
+`editreaction:` Edit the role which a certain reaction given.<br>
+`builder     :` Starts a prompt and create your reaction role.<br>
+`removerr    :` Removes a reaction role.<br>
+`dm          :` Enables / Disables Reaction Role DMs.<br>
+`types       :` Display's All available reaction role types.<br>
+`wipe        :` Wipe all reaction Roles from the current guild.<br>
 
 
 ## Installation
