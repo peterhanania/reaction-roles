@@ -55,7 +55,9 @@ Set up all your information in the *config.json* File as such
   "bot_name":"YOUR_BOT_NAME"
 }
 ```
-
+ > You can change the emojis in `emojis.js` and colors in `colors.js`
+ 
+ ### Important
  Please make sure to have enabled `Privileged Intents` on your Discord [developer portal](https://discordapp.com/developers/applications/). 
 
 Once done, you can launch the bot with `node index.js`. 
