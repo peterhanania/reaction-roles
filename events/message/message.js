@@ -103,7 +103,7 @@ module.exports = class extends Event {
         .setTitle(` Missing Bot Permissions`)
         .setDescription(`Command Name: **${command.name}**\nRequired Permission: **${missingPermissions.map(p => `${p}`).join(' - ')}**`)
         .setTimestamp()
-        .setFooter('https://github.com/peterhanania/reaction-rolesom/peterhanania/reaction-roles')
+        .setFooter('https://github.com/peterhanania/reaction-roles/')
         .setColor(message.guild.me.displayHexColor);
       return message.channel.send(embed).catch(()=>{})
           }
@@ -122,7 +122,7 @@ module.exports = class extends Event {
           .setTitle(`Missing User Permissions`)
           .setDescription(`Command Name: **${command.name}**\nRequired Permission: **${missingPermissions.map(p => `${p}`).join('\n')}**`)
           .setTimestamp()
-          .setFooter('https://github.com/peterhanania/reaction-rolesom/peterhanania/reaction-roles')
+          .setFooter('https://github.com/peterhanania/reaction-roles/')
           .setColor(message.guild.me.displayHexColor);
        return message.channel.send(embed).catch(()=>{})
       }
