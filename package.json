@@ -1,0 +1,27 @@
+{
+  "name": "reaction-roles",
+  "version": "1.0.0",
+  "description": "A similar bot to the reaction roles discord bot, but free! ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterhanania/reaction-roles.git"
+  },
+  "keywords": [
+    "reaction-roles"
+  ],
+  "author": "Peter Hanania",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterhanania/reaction-roles/issues"
+  },
+  "homepage": "https://github.com/peterhanania/reaction-roles#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.4"
+  }
+}
