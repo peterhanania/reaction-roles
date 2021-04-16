@@ -41,7 +41,7 @@ module.exports = class extends Command {
         const embed = new MessageEmbed()
         embed.setTitle(`Command: ${cmd.name}`)
         embed.setDescription(cmd.description)
-        embed.setFooter(cmd.disabled || disabledCommands.includes(args[0] || args[0].toLowerCase()) ? 'This command is currently disabled.' : message.member.displayName, message.author.displayAvatarURL({ dynamic: true }))
+        embed.setFooter(cmd.disabled ? 'This command is currently disabled.' : message.member.displayName, message.author.displayAvatarURL({ dynamic: true }))
        
         
         embed.addField('Usage',  `\`${cmd.usage}\``, true)
