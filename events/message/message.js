@@ -58,7 +58,7 @@ module.exports = class extends Event {
 
       }
 
-      let mainPrefix = settings ? settings.prefix : '!';
+      let mainPrefix = settings ? settings.prefix : 'rr!';
 
       const prefix = message.content.match(mentionRegexPrefix) ? 
         message.content.match(mentionRegexPrefix)[0] : mainPrefix 
@@ -112,7 +112,7 @@ module.exports = class extends Event {
           if (missingPermissions.length !== 0) {
        const embed = new MessageEmbed()
         .setAuthor(`${this.client.user.tag}`, message.client.user.displayAvatarURL({ dynamic: true }))
-        .setTitle(`<:wrong:822376943763980348> Missing Bot Permissions`)
+        .setTitle(`${message.client.emoji.fail} Missing Bot Permissions`)
         .setDescription(`Command Name: **${command.name}**\nRequired Permission: **${missingPermissions.map(p => `${p}`).join(' - ')}**`)
         .setTimestamp()
         .setFooter('https://pogy.xyz')
@@ -131,7 +131,7 @@ module.exports = class extends Event {
       if (missingPermissions.length !== 0) {
         const embed = new MessageEmbed()
           .setAuthor(`${message.author.tag}`, message.author.displayAvatarURL({ dynamic: true }))
-          .setTitle(`<:wrong:822376943763980348> Missing User Permissions`)
+          .setTitle(`${message.client.emoji.fail} Missing User Permissions`)
           .setDescription(`Command Name: **${command.name}**\nRequired Permission: **${missingPermissions.map(p => `${p}`).join('\n')}**`)
           .setTimestamp()
           .setFooter('https://pogy.xyz')
