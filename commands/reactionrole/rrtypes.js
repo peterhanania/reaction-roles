@@ -12,7 +12,7 @@ module.exports = class extends Command {
       super(...args, {
         name: 'types',
         aliases: ["rrtype", "reactionroletypes", "rrtypes"],
-        description: 'Enable / Disable Reaction Role DMs',
+        description: 'Will Display all reaction role Types',
         category: 'Reaction Role',
         cooldown: 3,
       });
