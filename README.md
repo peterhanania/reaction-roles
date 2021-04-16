@@ -60,6 +60,9 @@ Set up all your information in the *config.json* File as such
  ### Important
  Please make sure to have enabled `Privileged Intents` on your Discord [developer portal](https://discordapp.com/developers/applications/). 
 
+
+
+
 Once done, you can launch the bot with `node index.js`. 
 
 Any questions? DM me on <a href="https://discord.com/users/710465231779790849">Discord</a>.
