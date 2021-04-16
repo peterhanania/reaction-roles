@@ -6,6 +6,7 @@ const config = require('./../../config.json');
 const { MessageEmbed } = require('discord.js');
 const mongoose = require('mongoose');
 const Guild = require('../../database/guild')
+const permissions = require('../../permissions.json');
 
 module.exports = class extends Event {
   constructor(...args) {
