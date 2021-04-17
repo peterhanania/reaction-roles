@@ -19,7 +19,6 @@ module.exports = class botClient extends Client {
       messageCacheMaxSize: 25,
       messageCacheLifetime: 10000, 
       messageSweepInterval: 12000,
-      shardCount: 1,
       ws: {
         intents: [
         "GUILDS",
